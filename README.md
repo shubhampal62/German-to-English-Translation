@@ -16,7 +16,7 @@ Test Dataset: WMT 2016 German-English test dataset
 <br />
 -Trained a sequence-to-sequence encoder-decoder transformer model from scratch using PyTorch.
 <br />
-*Followed the PyTorch tutorial for language translation with nn.Transformer and torchtext.<br />
+*Followed the PyTorch tutorial for language translation with nn.Transformer and torchtext*.<br />
 -Evaluated on validation and test datasets using BLEU, METEOR, and BERTScore.<br />
 **Setup 2B: Zero-shot Evaluation with t5-small Model**<br />
 -Performed zero-shot evaluation using the t5-small model from HuggingFace.<br />
