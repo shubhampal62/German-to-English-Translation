@@ -4,10 +4,11 @@
 This project implements a German to English translation system using transformer models, leveraging the WMT 2016 dataset. The project explores three setups: training an encoder-decoder transformer model from scratch, performing zero-shot evaluation with the t5-small model, and fine-tuning the t5-small model for translation. Evaluation metrics include BLEU, METEOR, and BERTScore.
 <br />
 **Datasets**
+<br />
 Training Dataset: WMT 2016 German-English dataset (first 50,000 samples)
 Validation Dataset: WMT 2016 German-English validation dataset
 Test Dataset: WMT 2016 German-English test dataset
-
+<br />
 **Project Setups**
 **Setup 2A: Encoder-Decoder Transformer Model (PyTorch)**
 -Trained a sequence-to-sequence encoder-decoder transformer model from scratch using PyTorch.
